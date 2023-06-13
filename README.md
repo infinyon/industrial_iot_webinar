@@ -154,7 +154,7 @@ re-do end-to-end test:
 ```
 cat ./sample-data/pre_processed_sensors.jsonl | mosquitto_pub -h test.mosquitto.org -t am-mqtt-to-fluvio --stdin-line
 ```
-We can now monitor pipeline in Grafana: 
+We can now monitor the pipeline in Grafana: 
 ```
 docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-explorer-app" grafana/grafana
 ``` 

@@ -2,7 +2,7 @@
 Install fluvio 
 `curl -fsS https://packages.fluvio.io/v1/install.sh | bash`
 
-Register for a free account at [fluvio.io](https://21264918.hs-sites.com/infinyon-cloud-onboarding-experience?utm_campaign=global%20cloud%20link&utm_source=webinar&utm_medium=global%20button&utm_term=infinyon%20cloud&utm_content=cloud-registration)
+Register for a free account at [Infinyon Cloud](https://21264918.hs-sites.com/infinyon-cloud-onboarding-experience?utm_campaign=global%20cloud%20link&utm_source=webinar&utm_medium=global%20button&utm_term=infinyon%20cloud&utm_content=cloud-registration)
 
 Install mosquitto client (for command line interface) 
 `brew install mosquitto`
@@ -11,7 +11,7 @@ Install local Redis Stack
 ```
 docker run redis/redis-stack:latest
 ```
-or register in [redis cloud](https://app.redislabs.com/#/)
+or register in [Redis cloud](https://app.redislabs.com/#/)
 
 Install Grafana:
 ```

@@ -1,0 +1,3 @@
+[submodule "labs-redis-sink-connector"]
+	path = labs-redis-sink-connector
+	url = https://github.com/infinyon/labs-redis-sink-connector.git

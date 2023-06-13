@@ -1,0 +1,11 @@
+transforms:
+  - uses: infinyon/jolt@0.2.0
+    with:
+      spec:
+        - operation: shift
+          spec: 
+            payload:
+              key: "key"
+              value: "value"
+              timestamp: "timestamp"
+

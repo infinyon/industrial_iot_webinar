@@ -9,7 +9,7 @@ Install mosquitto client (for command line interface)
 
 Install local Redis Stack 
 ```
-docker run redis/redis-stack:latest
+docker run -e REDISTIMESERIES_ARGS="DUPLICATE_POLICY LAST" -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
 ```
 or register in [Redis cloud](https://app.redislabs.com/#/)
 

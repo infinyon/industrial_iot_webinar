@@ -4,14 +4,20 @@ Install fluvio
 
 Register for a free account at [Infinyon Cloud](https://21264918.hs-sites.com/infinyon-cloud-onboarding-experience?utm_campaign=global%20cloud%20link&utm_source=webinar&utm_medium=global%20button&utm_term=infinyon%20cloud&utm_content=cloud-registration)
 
-Install mosquitto client (for command line interface) 
+Install mosquitto client (for command line interface):
+
 `brew install mosquitto`
+
+Install the redis-stack and grafana dockers manually, or by using the provided docker-compose:
+
+```docker-compose up -d```
 
 Install local Redis Stack 
 ```
 docker run -e REDISTIMESERIES_ARGS="DUPLICATE_POLICY LAST" -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
 ```
-or register in [Redis cloud](https://app.redislabs.com/#/)
+
+or register with [Redis cloud](https://app.redislabs.com/#/)
 
 Install Grafana:
 ```
